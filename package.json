@@ -1,0 +1,36 @@
+{
+  "name": "banka",
+  "version": "1.0.0",
+  "description": "Banka api that uses javascript's data structures",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wanjikum/Banka.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wanjikum/Banka/issues"
+  },
+  "homepage": "https://github.com/wanjikum/Banka#readme",
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/register": "^7.4.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.3",
+    "nodemon": "^1.18.11"
+  }
+}
