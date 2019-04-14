@@ -1,5 +1,5 @@
 const express = require("express");
-require("dotenv").config();
+require("dotenv").config(); //loads environment variables from a .env file into process.env
 const app = express();
 
 const PORT = process.env.PORT || 4001;
